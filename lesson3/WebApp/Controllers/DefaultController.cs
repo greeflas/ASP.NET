@@ -13,5 +13,10 @@ namespace WebApp.Controllers
         {
             return View();
         }
+
+        public ActionResult Variables()
+        {
+            return View();
+        }
     }
 }

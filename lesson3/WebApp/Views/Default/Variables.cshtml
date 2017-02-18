@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Variables";
+}
+
+<h2>Variables</h2>
+@{ 
+    var text = "Lorem Ipsum is <b>simply</b> dummy text of the printing and typesetting industry.";
+}
+<p>
+    @text
+</p>
+<hr>
+<p>
+    @Html.Raw(text)
+</p>
