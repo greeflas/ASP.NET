@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Default controller";
+}
+
+<h2>Default controller</h2>
+<div>
+    @Html.ActionLink("Create new record", "Create")
+</div>
+<div>
+    @Html.ActionLink("Create new record", "Create", "Customer")
+</div>
+<div>
+    @Html.ActionLink("Create new record", "Create", "Customer", new { id = "test-record" }, new { style = "font-size: 25px;" })
+</div>
+<div>
+    @Html.RouteLink("Create new record", new { controller = "Customer", action = "Create" })
+</div>
